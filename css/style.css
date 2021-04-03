@@ -110,13 +110,10 @@ body {
 }
 
 .carousel{
-  margin-top: 3em;
+  margin-top: 70px;
   margin-bottom: 2em;
 }
 
-.carousel-item{
-  height: 33em;
-}
 
 .aim{
   margin-bottom: 2em; 
