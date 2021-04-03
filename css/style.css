@@ -59,6 +59,12 @@ body {
       padding: 3em 0;
     }
   }
+
+  @media only screen and (min-device-width: 480px){
+    .navbar-brand{
+      display: none;
+    }
+  }
  
   @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
