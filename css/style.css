@@ -87,7 +87,7 @@ body {
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+    color: rgba(255,255,255,.8);
 }
 /* change the color of active or hovered links */
 .navbar-custom .navbar-brand, .navbar-custom .nav-item.active .nav-link,
@@ -109,10 +109,24 @@ body {
   background-color: #fc8600e7 !important;
 }
 
+.carousel{
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.carousel-item{
+  height: 32em;
+}
+
+.aim{
+  margin-bottom: 2em; 
+}
+
   hr.solid {
     border-top: 3px solid #bbb;
     margin-left: 5em;
     margin-right: 5em;
+    margin-bottom: 2em;
     border-radius: 1em;
   }
 
