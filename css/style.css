@@ -134,6 +134,10 @@ body {
     border-radius: 1em;
   }
 
+  .heading p{
+    margin-bottom: 2em;
+  }
+
   .services {
     width: 95%;
     margin: 0 auto;
@@ -260,4 +264,19 @@ body {
     -webkit-box-shadow: inset -70px 0px 77px 11px rgba(0, 0, 0, 0.74);
     -moz-box-shadow: inset -70px 0px 77px 11px rgba(0, 0, 0, 0.74);
     box-shadow: inset -70px 0px 77px 11px rgba(0, 0, 0, 0.74);
+  }
+
+  .blog{
+    margin-top: 3em;
+  }
+
+  .img-fluid{
+    height: 275px !important;
+  }
+  
+  .hover-overlay img:hover{    
+    filter: brightness(90%);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
   }
