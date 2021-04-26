@@ -1,4 +1,4 @@
-html, body {
+html{
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -110,7 +110,6 @@ html, body {
 
 .cover{
   width: 100vw;
-  overflow: hidden;
 }
 
 .cover-img{
