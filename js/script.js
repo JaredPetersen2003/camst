@@ -1,3 +1,17 @@
+$(document).ready(function(){
+  $(".dropdown-toggle").dropdown();
+  $(window).scroll(function(){
+    if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+          $(".navbar-custom").css({"background-color":"#002650"});    
+      }
+      else{  
+          $(".navbar-custom").css({"background-color":"transparent"});
+      }
+
+  })
+})
+
+
 window.onload = (function ScrllReveal() {
   ScrollReveal().reveal('.card', {
     duration   : 600,
@@ -11,11 +25,22 @@ window.onload = (function ScrllReveal() {
   }, 150);
 
   ScrollReveal().reveal('.services', {
-    duration   : 600,
+    duration   : 1000,
     reset: true,
     delay: 150
   });
 
+  ScrollReveal().reveal('.aim', {
+    duration   : 1000,
+    reset: true,
+    delay: 300
+  });  
+
+  ScrollReveal().reveal('.offer-heading', {
+    duration   : 600,
+    reset: true,
+    delay: 150
+  });  
   
   
     var revealChildren = sr.reveal('.card-body, .card-text', {
@@ -29,9 +54,4 @@ window.onload = (function ScrllReveal() {
   }, 75);
 })
 
-
-
-$(document).ready(function() {
-    $(".dropdown-toggle").dropdown();
-});
 
