@@ -1,17 +1,3 @@
-$(document).ready(function(){
-  $(".dropdown-toggle").dropdown();
-  $(window).scroll(function(){
-    if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
-          $(".navbar-custom").css({"background-color":"#002650"});    
-      }
-      else{  
-          $(".navbar-custom").css({"background-color":"transparent"});
-      }
-
-  })
-})
-
-
 window.onload = (function ScrllReveal() {
   ScrollReveal().reveal('.card', {
     duration   : 600,
